@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "317372035898",
+    "firebase_url": "https://dluxtestproject.firebaseio.com",
+    "project_id": "dluxtestproject",
+    "storage_bucket": "dluxtestproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317372035898:android:54ddb149fd2e91b9",
+        "android_client_info": {
+          "package_name": "com.example.alitamoor.firebaseanalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317372035898-6va2hmtn1lstk0t48vjsvg5r6lg1070c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-JTqzyirzFGvZSZJqlCQQjbEIffKZmgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"/>
+
+   <Button
+       android:id="@+id/buttonCrashID"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginRight="8dp"
+       android:text="Crash"
+       ads:layout_constraintEnd_toEndOf="parent"
+       ads:layout_constraintStart_toStartOf="parent"
+       ads:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonInterstitialID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Show"
+        ads:layout_constraintEnd_toEndOf="@+id/buttonCrashID"
+        ads:layout_constraintStart_toStartOf="@+id/buttonCrashID"
+        ads:layout_constraintTop_toBottomOf="@+id/buttonCrashID" />
+
+    <Button
+        android:id="@+id/buttonRewardedVideoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Reward"
+        ads:layout_constraintEnd_toEndOf="@+id/buttonInterstitialID"
+        ads:layout_constraintStart_toStartOf="@+id/buttonInterstitialID"
+        ads:layout_constraintTop_toBottomOf="@+id/buttonInterstitialID" />
+</android.support.constraint.ConstraintLayout>
